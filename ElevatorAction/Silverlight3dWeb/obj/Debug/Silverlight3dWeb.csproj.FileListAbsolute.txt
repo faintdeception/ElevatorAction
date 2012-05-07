@@ -1,0 +1,5 @@
+c:\documents and settings\zruffin\my documents\visual studio 2010\Projects\ElevatorAction\ElevatorAction\Silverlight3dWeb\bin\Silverlight3dWeb.dll
+c:\documents and settings\zruffin\my documents\visual studio 2010\Projects\ElevatorAction\ElevatorAction\Silverlight3dWeb\bin\Silverlight3dWeb.pdb
+c:\documents and settings\zruffin\my documents\visual studio 2010\Projects\ElevatorAction\ElevatorAction\Silverlight3dWeb\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\zruffin\my documents\visual studio 2010\Projects\ElevatorAction\ElevatorAction\Silverlight3dWeb\obj\Debug\Silverlight3dWeb.dll
+c:\documents and settings\zruffin\my documents\visual studio 2010\Projects\ElevatorAction\ElevatorAction\Silverlight3dWeb\obj\Debug\Silverlight3dWeb.pdb

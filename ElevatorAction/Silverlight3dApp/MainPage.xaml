@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Silverlight3dApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Loaded="UserControl_Loaded"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--3D drawing surface-->
+        <DrawingSurface x:Name="myDrawingSurface" Draw="myDrawingSurface_Draw" Visibility="Visible"/>
+        <TextBlock Text="My Silverlight 3D Application" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,30" Foreground="White" FontSize="40"/>
+        <sdk:DataGrid Grid.Row="1" x:Name="ElevatorHud" AutoGenerateColumns="True" ItemsSource="{Binding Path=Manager.Elevators}"/>        
+        <Grid Grid.Row="1" Grid.Column="1">
+            <sdk:DataGrid x:Name="FloorsGrid" ItemsSource="{Binding PennyworthTowers.Floors}">
+                <sdk:DataGrid.Columns>
+                    <sdk:DataGridTemplateColumn>
+                        <sdk:DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Grid.Row="2" Background="Pink">                                                                        
+                                    <Button Content="Up" VerticalAlignment="Center" Click="UpButton_Click"/>
+                                    <Button Content="Down" VerticalAlignment="Center" Click="DownButton_Click"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </sdk:DataGridTemplateColumn.CellTemplate>
+                    </sdk:DataGridTemplateColumn>
+                </sdk:DataGrid.Columns>
+            </sdk:DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

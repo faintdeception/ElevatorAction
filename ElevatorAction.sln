@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silverlight3dApp", "ElevatorAction\Silverlight3dApp\Silverlight3dApp.csproj", "{3A8D475E-ECD3-477C-B6BF-BD0DBBF057DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silverlight3dWeb", "ElevatorAction\Silverlight3dWeb\Silverlight3dWeb.csproj", "{5DA06F4A-6DBE-4579-985B-D3D5ACDDF6C1}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Silverlight3dAppContent", "ElevatorAction\Silverlight3dAppContent\Silverlight3dAppContent.contentproj", "{81B3234E-800F-475F-AFDF-C5D25146F8FB}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Silverlight3dWebContent", "ElevatorAction\Silverlight3dWebContent\Silverlight3dWebContent.contentproj", "{C6790399-87DC-41DF-832B-09A962392C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A8D475E-ECD3-477C-B6BF-BD0DBBF057DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8D475E-ECD3-477C-B6BF-BD0DBBF057DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8D475E-ECD3-477C-B6BF-BD0DBBF057DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8D475E-ECD3-477C-B6BF-BD0DBBF057DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA06F4A-6DBE-4579-985B-D3D5ACDDF6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA06F4A-6DBE-4579-985B-D3D5ACDDF6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA06F4A-6DBE-4579-985B-D3D5ACDDF6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA06F4A-6DBE-4579-985B-D3D5ACDDF6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B3234E-800F-475F-AFDF-C5D25146F8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B3234E-800F-475F-AFDF-C5D25146F8FB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6790399-87DC-41DF-832B-09A962392C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6790399-87DC-41DF-832B-09A962392C2F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
